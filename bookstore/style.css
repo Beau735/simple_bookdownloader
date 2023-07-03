@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    background-image: url(./images/shelf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    background-color: #222831;
+}
+
+.cards {
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px black;
+    margin: 10px;
+    display: inline-block;
+    transition: 0.6s;
+    padding: 20px 30px;
+    margin-top: 5%;
+}
+
+.cards:hover {
+    transition: 0.6s;
+    box-shadow: 5px 5px 20px gold;
+}
+
+.row3 a button {
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px #222831;
+    height: 40px;
+    width: 40px;
+}
+
+#blue {
+    background-image: url(./images/bluebook.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#green {
+    background-image: url(./images/green-book.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#red {
+    background-image: url(./images/red-book.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#orange {
+    background-image: url(./images/orange-book.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
